@@ -19,7 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/ukBiswasIu/my-react-usable-demo-pack.git"
   },
-  "keywords": ["Hello", "my-react-usable-demo"],
+  "keywords": [
+    "Hello",
+    "my-react-usable-demo"
+  ],
   "author": "C-J",
   "license": "ISC",
   "bugs": {
