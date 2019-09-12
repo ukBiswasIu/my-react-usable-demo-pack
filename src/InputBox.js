@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 export default class InputBox extends Component {
   render() {
-    return (
-      <div> textInComponent </div>
-    );
+    return <div> textInComponent </div>;
   }
 }
