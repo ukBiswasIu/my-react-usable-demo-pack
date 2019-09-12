@@ -1,6 +1,6 @@
 {
   "name": "my-react-usable-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nice Package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
