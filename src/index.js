@@ -4,6 +4,6 @@ import InputBox from './InputBox';
 export const Greeter = name => `Hello ${name}`;
 export const YourName = name => `Your name is: ${name}`;
 //export default InputBox;
- export {InputBoxer};
+export { InputBoxer };
 //export const InputBox = new InputBox();
 //my.hello('Stack Overflow');s
