@@ -4,5 +4,5 @@ import InputBoxer from './InputBox';
 export const Greeter = name => `Hello ${name}`;
 export const YourName = name => `Your name is: ${name}`;
 // export {InputBoxer};
-export const my = new InputBoxer();
-my.hello('Stack Overflow');
+export const InputBox = new InputBoxer();
+//my.hello('Stack Overflow');
