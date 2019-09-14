@@ -1,4 +1,5 @@
-import MyComponent from './MyComponent';
+const MyComponent = require('./MyComponent');
+//import MyComponent from './MyComponent';
 // import InputBox from './InputBox';
 // import { Component } from 'react';
 

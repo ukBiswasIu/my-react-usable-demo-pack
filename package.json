@@ -13,7 +13,8 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "prepublish": "rm -rf ./dist && npm run build"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,13 @@
     "url": "https://github.com/ukBiswasIu/my-react-usable-demo-pack/issues"
   },
   "homepage": "https://github.com/ukBiswasIu/my-react-usable-demo-pack#readme",
+  "peerDependencies": {
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1"
+  },
   "devDependencies": {
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1",
     "@types/jest": "^24.0.18",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
