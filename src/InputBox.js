@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-export default class InputBox extends Component {
-  render() {
-    return <div> textInComponent </div>;
+export default class InputBox {
+  hello(name) {
+    console.log(`Hey ${name}`);
   }
 }
