@@ -9,6 +9,4 @@ import MyComponent from './MyComponent';
 //export const InputBox = new InputBox();
 //my.hello('Stack Overflow');
 
-export {
-    MyComponent
-}
+export { MyComponent };
