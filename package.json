@@ -1,9 +1,9 @@
 {
   "name": "my-react-usable-demo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A nice Package",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/index.d.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc --skipLibCheck",
