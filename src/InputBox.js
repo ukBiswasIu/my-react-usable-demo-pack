@@ -5,8 +5,7 @@ export default class InputBox extends Component {
   //   return `Hey ${name}`;
   // }
 
-  render(){
-    return <div>hello new div</div>
-    
+  render() {
+    return <div>hello new div</div>;
   }
 }
