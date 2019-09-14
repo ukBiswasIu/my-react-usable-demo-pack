@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class InputBox {
+export default class InputBox extends Component {
   // hello(name) {
   //   return `Hey ${name}`;
   // }
